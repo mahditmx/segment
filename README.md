@@ -45,7 +45,7 @@ Like this :
 
   
 
-## custom
+## Custom
 
   
 
@@ -67,14 +67,14 @@ console.log(menuStats)
 output:
 ```JSON
 {
-"1" : true,
-"allOrNew" : false
+  "1" : true,
+  "allOrNew" : false
 }
 ```
 
   
 
-## install
+## Installation guid
 
   
 
