@@ -27,7 +27,7 @@ for set **option** frist fill `opone = "my frist option"` and seconds option `op
 
   
 
-by defullt option one ***active*** if you need can change it whit `active="true"`
+by default option one ***active*** if you need can change it whit `active="true"`
 
   
 
@@ -49,7 +49,7 @@ Like this :
 
   
 
-in frist `<div>` set class `dm` for **DARDMODE**
+in frist `<div>` set class `dm` for **DARKMODE**
 
 
 like this :
