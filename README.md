@@ -5,7 +5,7 @@ DownLoad and open `index.html` to see and learn how to use
 Like this :
 ![preview lib](https://mahditmx4.pythonanywhere.com/static/img/preview.gif)
 #### preview
-open this link to see **segment menu** : https://mahditmx4.pythonanywhere.com/lib/1.0.0/segment/preview
+open this link to see **segment menu** : https://mahditmx4.pythonanywhere.com/lib/segment/1.0.0/preview
 **OR**
 Download files from github
 ## Usege
