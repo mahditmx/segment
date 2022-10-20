@@ -1,6 +1,5 @@
 
 
-
 $(document).ready(function () {
     globalThis.menuStats = {}
     menus = $(".side-menu").get()
@@ -8,6 +7,10 @@ $(document).ready(function () {
         id = menus[i].id
         opOne = $(`#${id}`).attr("opone");
         opTwo = $(`#${id}`).attr("optwo");
+
+        actionOne = $(`#${id}`).attr("actionOne");
+        actionTwo = $(`#${id}`).attr("actionTwo");
+
         active = $(`#${id}`).attr("active");
         if (active !== "true"){
             menuStats[id] = false
@@ -18,7 +21,7 @@ $(document).ready(function () {
 
         $(`#${id}`).append(`<div class="menu-father noselect" id='f-${id}'></div>`);
         $(`#f-${id}`).append(`<div class="menu-move" id='m-${id}' ></div>`);
-        $(`#f-${id}`).append(`<span class="op1" id='opf-${id}' >${opOne}</span> <span class="op2" id='opt-${id}' >${opTwo}</span>`);
+        $(`#f-${id}`).append(`<span class="op1" id='opf-${id}' onclick="${actionOne}" >${opOne}</span> <span class="op2" id='opt-${id}' onclick="${actionTwo}" >${opTwo}</span>`);
     } 
 
 
@@ -47,6 +50,3 @@ $(document).ready(function () {
         menuStats[moveId] = false
     });
 });
-
-
-
